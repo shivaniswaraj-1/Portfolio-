@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">MyPortfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-white d-flex align-items-center">
+      <div class="container text-center">
+        <img src="Images/Picture 2.jpeg" alt="Profile" class="Pic" />
+        <h1>Hello, I'm Shivani Swaraj</h1>
+        <p class="lead">A Passionate Web Developer</p>
+        <div class="row center" style="height: 1rem">
+          <p><span id="typedText"></span></p>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container text-center">
+        <img
+          src="Images/Picture.jpeg"
+          alt="Pic"
+          class="about-img"
+          width="150"
+          height="150"
+        />
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Shivani Swaraj, currently pursuing my Master of Computer
+          Applications (MCA). I have a strong interest in web development and
+          enjoy creating responsive and user-friendly websites. My technical
+          skill set includes HTML, CSS, JavaScript, React, and Bootstrap for
+          frontend development. I'm also familiar with Git and GitHub for
+          version control, and have a solid understanding of Java and SQL for
+          backend and database management. I'm always eager to learn new
+          technologies and improve my skills through hands-on projects and
+          real-world challenges.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+      <div class="container text-center">
+        <h2>Skills</h2>
+        <div class="row mt-4">
+          <div class="col-md-3 col-6">
+            <img src="Images/HTML.jpeg" class="skills-img" alt="Html" />
+            <p>
+              HTML (HyperText Markup Language) is the standard language used to
+              create and structure content on the web. It forms the backbone of
+              all websites by organizing text, images, links, and other elements
+              into a readable format for web browsers.
+            </p>
+          </div>
+          <div class="col-md-3 col-6">
+            <img src="Images/CSS.jpeg" class="skills-img" alt="CSS" />
+            <p>
+              CSS (Cascading Style Sheets) is used to style and visually enhance
+              HTML elements on a webpage. It controls the layout, colors, fonts,
+              spacing, and overall design to make websites look attractive and
+              user-friendly. CSS works by selecting HTML elements and applying
+              styles to them using properties like color, font-size, margin,
+              padding, and more. It supports responsive design through media
+              queries and allows for consistent styling across multiple pages.
+              Learning CSS is essential for creating visually appealing and
+              professional-looking websites.
+            </p>
+          </div>
+          <div class="col-md-3 col-6">
+            <img src="Images/Javascript.jpeg" class="skills-img" alt="JavaScript"/>
+            <p>
+              JavaScript is a powerful scripting language used to make websites
+              interactive and dynamic. While HTML structures the content and CSS
+              styles it, JavaScript adds functionality—such as form validation,
+              animations, interactive buttons, dropdowns, sliders, and much
+              more. It runs directly in the browser and allows developers to
+              respond to user actions like clicks, typing, or mouse movement.
+              JavaScript is an essential part of modern web development and is
+              widely used alongside frameworks like React, which help build fast
+              and responsive web applications.
+            </p>
+          </div>
+          <div class="col-md-3 col-6">
+            <img src="Images/React.jpeg" class="skills-img" alt="React" />
+            <p>
+              React is a popular JavaScript library used for building fast and
+              dynamic user interfaces, especially for single-page applications.
+              Developed by Facebook, React allows developers to create reusable
+              components, making the code more modular and easier to maintain.
+              It uses a virtual DOM for efficient rendering, which improves
+              performance and user experience. With React, it's easy to manage
+              the state of your application and build responsive interfaces that
+              update in real-time without reloading the page. It’s a key tool
+              for modern frontend development.
+            </p>
+          </div>
+          <div class="col-md-3 col-6">
+            <img src="Images/Java.jpeg" class="skills-img" alt="Java" />
+            <p>
+              Java is a versatile and object-oriented programming language that
+              is widely used for building web applications, mobile apps, and
+              enterprise-level software. It follows the principle of "write
+              once, run anywhere," meaning Java applications can run on any
+              platform that supports the Java Virtual Machine (JVM). In web
+              development, Java is often used for server-side programming with
+              technologies like Servlets, JSP, and Spring. Its strong typing,
+              reliability, and large community support make it a solid choice
+              for backend development and scalable applications.
+            </p>
+            
+          </div>
+          <div class="col-md-3 col-6"><img src="Images/Sql.jpeg" class="skills-img" alt="Sql" />
+            <p>
+              SQL (Structured Query Language) is a standard language used to
+              manage and interact with relational databases. It allows
+              developers to store, retrieve, update, and delete data efficiently
+              using commands like SELECT, INSERT, UPDATE, and DELETE. SQL is
+              essential for backend development as it helps in handling
+              structured data in applications. It is commonly used with
+              databases like MySQL, PostgreSQL, and Oracle. Understanding SQL is
+              important for creating dynamic web applications that rely on data
+              storage and management.
+            </p>
+            
+          </div>
+          <div class="col-md-3 col-6">
+            <img src="Images/Bootstrap.jpeg" class="skills-img" alt="Bootstrap" />
+            <p>
+              Bootstrap is a popular front-end framework that helps developers
+              build responsive and mobile-first websites quickly and
+              efficiently. It provides a collection of pre-designed HTML, CSS,
+              and JavaScript components such as buttons, navigation bars, forms,
+              modals, and carousels. Bootstrap uses a grid system to create
+              layouts that automatically adjust across different screen sizes,
+              making websites look good on desktops, tablets, and smartphones.
+              It simplifies the web design process and is a great tool for
+              beginners to create clean and professional-looking interfaces.
+            </p>
+           
+          </div>
+          <div class="col-md-3 col-6">
+            <img src="Images/Git.jpeg" class="skills-img" alt="Git" />
+            <p>
+              Git is a widely used version control system that helps developers
+              track changes in their code and collaborate with others
+              effectively. It allows you to save different versions of your
+              project, go back to previous states, and work on new features
+              without affecting the main codebase. Git is especially useful in
+              team environments where multiple people are contributing to the
+              same project. With commands like git commit, git push, and git
+              pull, developers can manage their code efficiently and avoid
+              conflicts. It’s an essential tool for modern software development.
+            </p>
+           
+          </div>
+          <div class="col-md-3 col-6">
+            <img src="Images/Github.jpeg" class="skills-img" alt="Github" />
+            <p>
+              GitHub is a cloud-based platform that works with Git to host and
+              manage code repositories. It allows developers to store their
+              projects online, collaborate with others, track issues, and
+              contribute to open-source projects. GitHub provides features like
+              pull requests, branches, and code reviews, making it easy to work
+              in teams and manage project versions. It also serves as a
+              portfolio of your coding work, where others—including recruiters
+              and collaborators—can view your code and contributions. For any
+              developer, GitHub is an essential platform to showcase skills and
+              collaborate effectively.
+            </p>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+      <div class="container text-center">
+        <h2>Projects</h2>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Tic Tac Toe</h5>
+             
+                <p class="card-text">
+                  This is a simple and interactive Tic Tac Toe game built using
+                  HTML, CSS, and JavaScript. It’s a classic two-player game
+                  where users take turns placing “X” and “O” on a 3x3 grid. The
+                  project focuses on implementing core web development skills
+                  such as DOM manipulation, event handling, and game logic using
+                  JavaScript. The game checks for a winner after each move and
+                  highlights the winning combination. It also includes a reset
+                  button to start a new game. This project helped me strengthen
+                  my understanding of conditional statements, loops, and UI
+                  interaction in JavaScript.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Stopwatch</h5>
+                <p class="card-text">
+                  The Stopwatch is a web-based time-tracking application built
+                  using HTML, CSS, and JavaScript. It includes basic features
+                  such as Start, Stop, and Reset functions. The timer displays
+                  elapsed time in minutes, seconds, and milliseconds. JavaScript
+                  is used to handle the logic for time calculation and button
+                  control, while CSS is used to style the layout and make it
+                  user-friendly. This project helped me understand how to work
+                  with time functions in JavaScript, manage intervals, and
+                  create responsive UI components.
+                </p>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+   <!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2>Contact Me</h2>
+    <p class="lead">Feel free to get in touch with me .</p>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-8 col-12">
+        <div class="card shadow-sm mb-4">
+          <div class="card-body">
+            <form action="#" method="POST">
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Write your message here" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-4">
+      <p>Email: <a href="mailto:shivaniswaraj02@gmail.com" class="text-decoration-none">shivaniswaraj02@gmail.com</a></p>
+      <p>LinkedIn: <a href="www.linkedin.com/in/shivani-swaraj-3115a8251" class="text-decoration-none" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-0">&copy; 2025 Shivani Swaraj. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
